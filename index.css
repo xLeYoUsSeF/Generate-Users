@@ -33,3 +33,34 @@ html {
     transition: 0.3s ease;
     border-radius: 5px;
 }
+.select {
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    background-color: #2196F3;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.gallery {
+    display: flex;
+    /* gap: 10px; */
+    width: fit-content;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery li {
+    background-color: #03A9F4;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: auto auto;
+}
+.gallery li:hover,
+.gallery li.active {
+    background-color: #018aca;
+}
